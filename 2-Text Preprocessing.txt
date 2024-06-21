@@ -1,0 +1,20 @@
+1.What is text preprocessing and why is it important in NLP?
+ =>Text preprocessing involves cleaning and preparing text data for analysis. It's crucial because it ensures that the text data is in a consistent format and reduces noise, improving the performance of NLP models.
+
+2.Explain how tokenization works and why it is a crucial step in text preprocessing.
+ =>Tokenization is the process of splitting text into individual tokens (words or phrases). It is crucial because most NLP tasks operate on these tokens rather than raw text.
+
+3.What is the difference between stemming and lemmatization?
+ =>Stemming reduces words to their base or root form, but the resulting stem might not be a valid word. Lemmatization reduces words to their base or root form using vocabulary and morphological analysis, resulting in valid words.
+
+6.Describe the process of lowercasing in text preprocessing and its significance.
+=>Lowercasing converts all characters in the text to lowercase, ensuring uniformity and reducing the complexity of text analysis.
+
+8.What is the purpose of normalization in text preprocessing? Give an example.
+=>Normalization standardizes text data to a consistent format, improving model performance.
+
+9.Explain how you would handle misspelled words in a text dataset.
+ =>Misspelled words can be corrected using spell check libraries or by mapping common misspellings to the correct form. This improves data quality and model accuracy.
+
+10.What are stop words and why might they sometimes be useful instead of being removed?
+=>Stop words are common words that are often removed in text preprocessing. However, they can be useful in specific contexts where they contribute to the meaning, such as in sentiment analysis.

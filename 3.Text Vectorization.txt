@@ -1,0 +1,26 @@
+1.What is text vectorization and why is it important in NLP?
+=>Text vectorization converts text data into numerical vectors, enabling algorithms to process and analyze text data effectively.
+
+2.Explain the Bag-of-Words (BoW) model. How does it work?
+=>BoW represents text as a frequency distribution of words. Each document is represented by a vector of word counts.
+
+3.What is TF-IDF and how does it differ from the Bag-of-Words model?
+=>TF-IDF stands for Term Frequency-Inverse Document Frequency. It adjusts the word frequency by considering the importance of words across documents, unlike BoW, which only considers frequency.
+
+5.What are word embeddings and how do they improve upon traditional vectorization methods like BoW and TF-IDF?
+=>Word embeddings are dense vector representations of words that capture semantic relationships, unlike BoW and TF-IDF which are sparse and don't capture semantics.
+
+6.Explain the concept of Word2Vec and its two main models: CBOW and Skip-gram.
+=>Word2Vec is a model that learns word embeddings. CBOW (Continuous Bag of Words) predicts the current word based on context, while Skip-gram predicts context words from the current word.
+
+7.How does GloVe differ from Word2Vec?
+=>GloVe (Global Vectors for Word Representation) combines the benefits of global matrix factorization and local context window methods. It captures co-occurrence statistics of words in a corpus.
+
+8.What is the purpose of using pre-trained word embeddings? Give an example of a pre-trained embedding.
+=>Pre-trained word embeddings save time and computational resources and can improve model performance. An example is Google's Word2Vec or GloVe from Stanford.
+
+9.How can you use pre-trained word embeddings in your NLP model?
+=>Pre-trained embeddings can be loaded and used as input to NLP models, ensuring that words are represented by meaningful vectors.
+
+10.What are contextual word embeddings and how do they differ from traditional word embeddings?
+=>Contextual word embeddings, like those from BERT, consider the context of words in a sentence, unlike traditional embeddings which have a single representation for each word.
